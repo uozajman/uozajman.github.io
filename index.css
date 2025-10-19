@@ -1,0 +1,146 @@
+body {
+background-color:#EBE9E1;
+margin:0;
+padding:0;
+}
+#outer {
+background-color:#fff;
+margin:0px auto;
+width:960px;
+font-size:13px;
+line-height:150%;
+padding:0;
+color:#222;
+}
+#header {
+height:90px;
+}
+#main {
+width:640px;
+float:left;
+}
+.content {
+padding:0 30px 10px 30px;
+font-size:13px;
+line-height:150%;
+}
+#right {
+width:290px;
+color:#004C25;
+font-size:13px;
+float:left;
+}
+.title {
+height:35px;
+line-height:35px;
+font-size:13px;
+padding:0 0 0 35px;
+margin:0;
+font-weight:bold;
+color:#fff;
+background-color:#004C25;
+}
+.side {
+font-size:13px;
+padding:6px 0 10px 14px;
+margin:0;
+background-color:#DBE6DE;
+font-weight:bold;
+color: #777;
+}
+.side a{
+color:#036;
+text-decoration : none;
+}
+.side a:hover{
+text-decoration:underline;
+}
+ul {
+margin: 0 0 0 1em;
+padding: 0;
+}
+li {
+list-style:disc; 
+}
+.side ul {
+margin: 0;
+padding: 4px 0;
+}
+.side li {
+margin: 7px 0 7px 20px;
+list-style:disc; 
+padding: 0;
+}
+p {
+margin:1em 0;
+line-height:150%;
+}
+img{
+border:0;
+}
+hr {
+border-width: 1px 0 0 0;
+border-style: solid;
+border-color: #ccc;
+height: 1px;
+}
+a{
+font-weight:normal;
+color: #036;
+}
+h1 {
+font-size:16px;
+text-align:left;
+color: #033;
+padding:44px 0 0 34px;
+margin:0;
+font-family: メイリオ, Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', sans-serif;
+}
+h1 a{
+font-weight:bold;
+color:#033;
+text-decoration:none;
+}
+h1 a:hover{
+text-decoration:underline;
+}
+h2 {
+font-size:16px;
+margin:0;
+padding:7px 0 9px 4px;
+border-bottom:1px solid #999;
+}
+h3 {
+font-size:16px;
+padding:5px 0 3px 4px;
+margin-right: 20px;
+}
+h4 {
+font-size:16px;
+padding-left: 4px;
+}
+#footer {
+color:#666;
+font-size:12px;
+height:110px;
+clear:left;
+text-align:center;
+}
+.copy {
+padding:20px 0 0 0;
+}
+blockquote{
+border:1px solid #ccc;
+padding:5px;
+margin:10px;
+}
+@media screen and (max-device-width: 480px) {
+#outer {width:100%;}
+#header {width:100%;clear:both;height:70px;}
+h1 {padding:34px 0 0 34px;}
+#main {width:100%;clear:both;}
+.content {clear:both;font-size:120%;padding:0 10px;}
+#right {width:100%;clear:both;}
+#footer {width:100%;clear:both;}
+img {zoom:80%;}
+}
