@@ -1,2 +1,95 @@
 # uozajman.github.io
 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>うお座自慢のホームページ</title>
+<meta name="keywords" content="uozajmanshome">
+<meta name="description" content="Githubのuozajmanの個人的ホームページです。">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="outer">
+<header><div id="header-container"><div id="head-inner"><h1>うお座自慢のホームページ</h1>
+<p class="description">Githubのuozajmanの個人的ホームページです。</p></div></div>
+</header>
+<div id="content-wrapper">
+<main>
+<div id="inner">
+<img src="00-52-32-144_512.webp" alt="">
+<img src="タイトルなし.png" alt="">
+<h2>更新情報</h2>
+<details open> 
+  <summary>2025年</summary>
+    <li>10/22/WED ホームページの全体的な改修を行いました。</li>
+</details>
+</div>
+<h2>ーホームページへようこそ！</h2>
+<p>Githubのuozajman（うお座自慢）が運営する。個人ホームページ兼ブログです。チート・ハッキングによる荒らし行為は固く禁じられています。</p>
+<h3>ー運営者について</h3>
+<p>運営者の12星座はうお座です。カメラと写真が好きです。</p>
+<p>その他は個人情報保護のため、メールアドレスだけ掲載しときます。</p>
+<h3>ーこのサイトの概要について</h3>
+<p>カメラや写真に関する情報やブログを主に更新していこうと思います。楽しんで頂ければ幸いです。</p>
+</main>
+<aside>
+<div id="middle-inner">
+<div class="side-title">menu</div>
+<div class="side">
+<ul>
+<li><a href="https://uozajman.github.io/blog.html">ブログはこちら</a></li>
+<li><a href="https://110v011.github.io/">お気に入りのホームページ1 ※他の人のサイトに飛びます。</a></li>
+<li><a href="https://www.shibumaku.jp/old/mk-lessons23/h1f/f07/index.html">お気に入りのホームページ2 ※他の人のサイトに飛びます。</a></li>
+</ul>
+</div>
+</aside>
+<h3>おまけ</h3>
+<h4>canonの歴代ロゴ</h4>
+<img src="logo_02.gif" alt="1934年">
+<img src="logo_1934.png" alt="1934年">
+<img src="logo_1935.png" alt="1935年">
+<img src="logo_1953.png" alt="1953年">
+<img src="logo_1956.png" alt="1956年">
+<p>canonも結構歴史あって面白いですよね</p>
+<h4>フリーGifスペース</h4>
+<img src="1.10.130_493463931.gif" alt="">
+<img src="fb5e80a2fb1b2d54e70d05d7690dc302.gif" alt="">
+<img src="57e2685e61ff5fabca4f0150ad98129d25030eae.gif" alt="">
+<img src="730d628eb93e9e5dcd2c1b00f9eca18d11fed7f0bf03e306af409572115a.gif" alt="">
+<img src="1.10.130_493463931.gif" alt="">
+<img src="fb5e80a2fb1b2d54e70d05d7690dc302.gif" alt="">
+<img src="57e2685e61ff5fabca4f0150ad98129d25030eae.gif" alt="">
+<img src="730d628eb93e9e5dcd2c1b00f9eca18d11fed7f0bf03e306af409572115a.gif" alt="">
+<img src="1.10.130_493463931.gif" alt="">
+<img src="fb5e80a2fb1b2d54e70d05d7690dc302.gif" alt="">
+<img src="57e2685e61ff5fabca4f0150ad98129d25030eae.gif" alt="">
+<img src="730d628eb93e9e5dcd2c1b00f9eca18d11fed7f0bf03e306af409572115a.gif" alt="">
+<img src="1.10.130_493463931.gif" alt="">
+<img src="fb5e80a2fb1b2d54e70d05d7690dc302.gif" alt="">
+<img src="57e2685e61ff5fabca4f0150ad98129d25030eae.gif" alt="">
+<img src="730d628eb93e9e5dcd2c1b00f9eca18d11fed7f0bf03e306af409572115a.gif" alt="">
+<img src="1.10.130_493463931.gif" alt="">
+<img src="fb5e80a2fb1b2d54e70d05d7690dc302.gif" alt="">
+<img src="57e2685e61ff5fabca4f0150ad98129d25030eae.gif" alt="">
+<img src="730d628eb93e9e5dcd2c1b00f9eca18d11fed7f0bf03e306af409572115a.gif" alt="">
+<img src="1.10.130_493463931.gif" alt="">
+<img src="fb5e80a2fb1b2d54e70d05d7690dc302.gif" alt="">
+<img src="57e2685e61ff5fabca4f0150ad98129d25030eae.gif" alt="">
+<img src="730d628eb93e9e5dcd2c1b00f9eca18d11fed7f0bf03e306af409572115a.gif" alt="">
+<img src="1.10.130_493463931.gif" alt="">
+<img src="fb5e80a2fb1b2d54e70d05d7690dc302.gif" alt="">
+<img src="57e2685e61ff5fabca4f0150ad98129d25030eae.gif" alt="">
+<img src="730d628eb93e9e5dcd2c1b00f9eca18d11fed7f0bf03e306af409572115a.gif" alt="">
+<img src="1.10.130_493463931.gif" alt="">
+<img src="fb5e80a2fb1b2d54e70d05d7690dc302.gif" alt="">
+<img src="57e2685e61ff5fabca4f0150ad98129d25030eae.gif" alt="">
+<img src="730d628eb93e9e5dcd2c1b00f9eca18d11fed7f0bf03e306af409572115a.gif" alt="">
+<img src="congraturations_20241208131224f98.gif" alt="">
+<h3>深夜作成の弊害</h3>
+</div>
+</div>
+<footer>© 2025 うお座自慢のホームページ</footer>
+</div></body>
+</html>
