@@ -1,3 +1,11 @@
+#load_movie {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #FFF;
+    z-index: 99999;
+}
 @charset "UTF-8";
 body {
 	margin: 0;
@@ -165,12 +173,4 @@ h3 {
 h4 {
 	font-size: 14px;
 }
-}
-#load_movie {
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background: #FFF;
-    z-index: 99999;
 }
