@@ -16,6 +16,14 @@ header {
 #head-inner {
     padding: 25px 0;
 }
+#load_movie {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #FFF;
+    z-index: 99999;
+}
 h1 {
 	font-size: 26px;
 	font-weight: bold;
