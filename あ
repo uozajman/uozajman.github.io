@@ -16,12 +16,12 @@
 <div id="content-wrapper">
 <main>
 <div id="inner">
-<h2>記事ページ見出し・大</h2>
-<p>文章あれこれ</p>
-<h3>記事ページ見出し・中</h3>
-<p>文章あれこれ</p>
-<h4>記事ページ見出し・小</h4>
-<p>文章あれこれ</p>
+<h2>更新情報</h2>
+<details open> 
+  <summary>2025年</summary>
+    <li><font color= green:>NEW!</font> 12/1/MON トップページ、ブログページの全体的な改修を行いました。・ブログを更新しました。</li>
+    <li>10/22/WED トップページの全体的な改修を行いました。</li>
+</details>
 </div>
 </main>
 <aside>
