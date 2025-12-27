@@ -18,7 +18,22 @@
 <div id="inner">
 <video width="100%" height="10%" src="プレステ２の起動音.mp4" loop autoplay muted></video>
 <audio src="プレステ２の起動音.mp3" autoplay loop></audio>
-<h1>Welcome to My Homepage!</h1>
+<style>
+.flow-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+</style>
+
+<div style="overflow:hidden; background:#f0f0f0;">
+  <p class="flow-text">Welcome to My Homepage!</p>
+</div>
 <h2>更新情報</h2>
 <details open> 
   <summary>2025年</summary>
