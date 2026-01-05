@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Fish Homepedia</title>
+<meta name="keywords" content="ページのキーワードA,B,C">
+<meta name="description" content="ページの説明">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="outer">
+<header><div id="header-container"><div id="head-inner"><h1 style="font-family: 'Century', sans-serif;">Fish Homepedia</h1></div></div>
+</header>
+<div id="content-wrapper">
+<main>
+<div id="inner">
+<h2>個人情報開示を覚悟して私の使っているカメラを紹介。</h2>
+　<h2>ーお久しぶりです！</h2>
+　　<p>皆様,更新が遅くなってしまい大変申し訳ございませんでした......。私用により作りかけのまま作業が止まっていました。やっとブログを作る時間が取れたので、更新頻度上げてこうと思います。</p>
+　<h2>ーカメラ紹介</h2>
+　　<p>それはさておき、栄えあるブログ第１回目は、自分の使っている一眼レフカメラを紹介しようと思います！（自己紹介はトップページに掲載。）</p>
+  <img src="136.png" alt="CANON EOS-M6">
+    <p> 8年前位に父親が買ったおさがりですが......。ミラーレス,一眼レフのカメラなので、相場4万～5万円です。<br>2017年製で画素数は2420万（Iphone17のカメラの画素数が4800万程度）。<br>レンズはEF-M18-150mm、大きいやつをつけてます。小型モデルに対してズーム倍率大きめは嬉しい。<br>ただし、バッテリー持ちは類を見ないほど悪い。<br> 一応まだまだ現役なので当分は使い続けたいと思っています。その内レトロデジカメとか買いたいですね。KODAKとか。</p>
+  <h2>ー〆</h2>
+    <p>と、言うことで、今回は自分使っている一眼レフカメラを紹介してみました！それでは、さいなら～(^.^)/~~~ 豆菓子</p>
+</div>
+</main>
+<aside>
+<div id="middle-inner">
+<div class="side-title">menu</div>
+<div class="side">
+<ul>
+<li><a href="https://uozajman.github.io">⇐トップに戻る</a></li>
+<li><a href="https://uozajman.github.io/blog.html">⇐ブログメニューに戻る</a></li>
+</ul>
+</div>
+</div>
+</aside>
+</div>
+<footer>© 2026 Fish Homepedia</footer>
+</div></body>
+</html>
