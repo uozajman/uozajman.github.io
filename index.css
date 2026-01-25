@@ -83,36 +83,81 @@ float: right; width: 28%;}
 #middle-inner {
 	padding: 20px 0 20px 0;
 }
-.side-title {
-	padding: 7px 16px 7px 16px;
-	background-color: #f1f1f1;
-	color: #333;
-	font-weight: bold;
-	border: 1px solid #ccc;
-	margin-bottom: 10px;
-	border-radius: 5px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
 }
-.side {
-	margin: 0 0 10px 0;
-	padding: 2px 8px 8px 7px;
-	background-color: #fcfcfc;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	border-radius: 5px;
+
+/* メニューのスタイル */
+.menu {
+  position: fixed;
+  top: 0;
+  right: -100%; /* 初期状態では画面の外に隠れている */
+  width: 300px;
+  height: 100%;
+  background-color: #fafad2;
+  color: #333;
+  transition: right 0.3s ease; /* スライドインのアニメーション */
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 10;
 }
-.side ul {
-	margin: 0 0 0 10px;
-	padding: 0;
+
+/* メニューが開いているとき */
+.menu.open {
+  right: 0;
 }
-.side li {
-	list-style: none;
-	margin-bottom: 0.5em;
+
+/* ボタンのスタイル */
+.hamburger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  cursor: pointer;
+  z-index: 20;
 }
-.side li a {
-	text-decoration: none;
-	color: #214555;
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
 }
-.side li a:hover {
-	text-decoration: underline;
+
+/* バツ印に変化するスタイル */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* メニューリストのスタイル */
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 80px;
+}
+
+.menu li {
+  padding: 20px 0;
+  border-bottom: 1px solid #444;
+}
+
+.menu li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
 }
 footer {
 	font-size: 15px;
