@@ -83,82 +83,94 @@ float: right; width: 28%;}
 #middle-inner {
 	padding: 20px 0 20px 0;
 }
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
+.menu-wrapper {
+  position: relative;
 }
 
-/* メニューのスタイル */
-.menu {
-  position: fixed;
-  top: 0;
-  right: -100%; /* 初期状態では画面の外に隠れている */
-  width: 300px;
-  height: 100%;
-  background-color: #fafad2;
-  color: #333;
-  transition: right 0.3s ease; /* スライドインのアニメーション */
-  padding: 20px;
-  box-sizing: border-box;
-  z-index: 10;
-}
-
-/* メニューが開いているとき */
-.menu.open {
-  right: 0;
-}
-
-/* ボタンのスタイル */
-.hamburger {
-  position: fixed;
+.menu-icon {
+  width: 40px;
+  height: 30px;
+  position: fixed; /* ← fixedにして常に右上固定 */
   top: 20px;
   right: 20px;
-  width: 30px;
   cursor: pointer;
-  z-index: 20;
+  z-index: 3;
+  display: inline-block;
 }
 
-.hamburger span {
+.menu-icon span {
   display: block;
-  height: 3px;
-  width: 100%;
-  background-color: #333;
-  margin: 5px 0;
+  height: 4px;
+  margin: 6px 0;
+  background: #333;
+  border-radius: 2px;
   transition: 0.4s;
 }
 
-/* バツ印に変化するスタイル */
-.hamburger.active span:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
+/* ハンバーガーがXに変形 */
+#menu-toggle:checked + .menu-icon span:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
 }
-
-.hamburger.active span:nth-child(2) {
+#menu-toggle:checked + .menu-icon span:nth-child(2) {
   opacity: 0;
 }
-
-.hamburger.active span:nth-child(3) {
-  transform: rotate(-45deg) translate(6px, -6px);
+#menu-toggle:checked + .menu-icon span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
 }
 
-/* メニューリストのスタイル */
+/* オーバーレイ背景 */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+  z-index: 1;
+}
+
+#menu-toggle:checked ~ .overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* メニュー本体（右から出す） */
+.menu {
+  position: fixed;
+  top: 0;
+  right: -250px; /* ← 初期位置を右へ */
+  width: 250px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+  transition: left 0.4s ease;
+  z-index: 2;
+}
+
+#menu-toggle:checked ~ .menu {
+  right: 0; /* ← 開いたときは右0へ */
+}
+
 .menu ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 80px;
+  list-style: none;
+  padding: 60px 20px;
 }
 
 .menu li {
-  padding: 20px 0;
-  border-bottom: 1px solid #444;
+  margin: 20px 0;
 }
 
-.menu li a {
-  color: #333;
+.menu a {
   text-decoration: none;
-  display: block;
+  color: #333;
+  font-size: 1.2rem;
+  transition: color 0.3s;
 }
+
+.menu a:hover {
+  color: #007bff;
+}
+
 footer {
 	font-size: 15px;
 	height: 100px;
